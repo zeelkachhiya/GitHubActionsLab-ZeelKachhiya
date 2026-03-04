@@ -2,7 +2,7 @@ name: Workflow 1 - Dependent Jobs
 
 on:
   push:
-    branches: [ "master" ]   # add "main" here too if your default branch is main
+    branches: [ "main" ]   # add "main" here too if your default branch is main
 
 jobs:
   build:
